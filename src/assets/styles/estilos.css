@@ -1,0 +1,74 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Cambia la fuente a Comic Sans MS, que es una fuente cursiva */
+  background-color: rgb(213, 253, 253);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Asegura que el contenedor ocupe todo el alto de la página */
+}
+
+.curp {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  background-color: #dfffc9;
+}
+
+.curp h2,
+.curp p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.form-group label {
+  margin-right: 10px;
+}
+
+.form-group input,
+.form-group select {
+  width: 30%;
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.btn-primary {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  border-radius: 50px; /* Hace que los bordes del botón sean más redondeados */
+  color: rgb(1, 98, 172);
+  background-color: white;
+  border-color: rgb(86, 106, 255);
+  margin-top: 20px;
+  padding: 10px 20px; /* Añade un poco de relleno al botón */
+  transition: all 0.3s ease; /* Añade una transición suave a los cambios de estilo del botón */
+}
+
+.btn-primary:hover {
+  cursor: pointer;
+  background-color: rgb(181, 194, 235); /* Cambia el color de fondo del botón cuando se pasa el ratón por encima */
+  color: rgb(0, 0, 0); /* Cambia el color del texto del botón cuando se pasa el ratón por encima */
+  border-color: white; /* Cambia el color del borde del botón cuando se pasa el ratón por encima */
+}
+
